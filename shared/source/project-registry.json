@@ -1,0 +1,18 @@
+{
+  "projects": [
+    {
+      "id": "applied-intelligence-app",
+      "name": "Applied Intelligence App",
+      "repo": "kool1160/applied-intelligence-app",
+      "type": "application",
+      "role": "Runtime execution layer"
+    },
+    {
+      "id": "applied-intelligence-website",
+      "name": "Applied Intelligence Website",
+      "repo": "kool1160/applied-intelligence-website",
+      "type": "website",
+      "role": "Public framework shell"
+    }
+  ]
+}
