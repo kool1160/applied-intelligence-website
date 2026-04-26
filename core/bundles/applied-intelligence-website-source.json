@@ -4,7 +4,7 @@
     "slug": "applied-intelligence",
     "slogan": "Standardize to Optimize",
     "supportingLine": "Applied Intelligence Framework",
-    "description": "Applied Intelligence is the parent ecosystem for specialized agents focused on analytics, continuous improvement, case studies, ROI, quoting, corrective action, communication, routing, permissions, and document formatting.",
+    "description": "Applied Intelligence is a clear, public framework overview of specialized agents that improve operations, quality, communication, and business outcomes.",
     "corePrinciple": "One ecosystem. Separate agents. Clear roles.",
     "version": "2.0"
   },
@@ -25,14 +25,94 @@
     "summaryFile": "core/summaries/applied-intelligence-website-summary.md"
   },
   "agentCards": [
-    { "id": "ai-trace", "title": "AI-Trace", "subtitle": "Trace", "type": "analytics_visibility", "icon": "magnifier-chart", "color": "blue", "status": "active", "tagline": "AI-Trace exposes repeat problems, hidden cost, quality risk, and lost hours so recurring issues stop being patched and start being fixed.", "principle": "AI-Trace shows the picture clearly. AI-CIS fixes what the picture reveals." },
-    { "id": "ai-cis", "title": "AI-CIS", "subtitle": "CIS", "type": "continuous_improvement", "icon": "shield", "color": "copper", "status": "active", "tagline": "AI-CIS captures process breakdowns, protects flow, and drives corrective action before repeat issues become normal.", "principle": "AI-CIS finds the improvement." },
-    { "id": "ai-roi", "title": "AI-ROI", "subtitle": "ROI", "type": "business_justification", "icon": "bar-chart", "color": "green", "status": "active", "tagline": "AI-ROI turns validated improvements and equipment opportunities into clear financial justification, showing where capacity, labor, and value can be gained.", "principle": "AI-CIS finds the improvement. AI-ROI justifies the value." },
-    { "id": "ai-case", "title": "AI-Case", "subtitle": "Case", "type": "case_study_storytelling", "icon": "document", "color": "indigo", "status": "planned", "tagline": "AI-Case turns real improvements, technical problem-solving, and process wins into clear case studies.", "principle": "AI-CIS identifies case study value. AI-Case tells the story." },
-    { "id": "ai-quote", "title": "AI-Quote", "subtitle": "Quote", "type": "estimating_quoting", "icon": "calculator", "color": "orange", "status": "planned", "tagline": "AI-Quote turns weld, grind, fixture, and flow decisions into clear estimating logic and practical pricing.", "principle": "AI-Quote prices the work clearly." },
-    { "id": "ai-rma", "title": "AI-RMA", "subtitle": "RMA", "type": "return_corrective_action", "icon": "alert-rotate", "color": "red", "status": "planned", "tagline": "AI-RMA traces failures back to the source, contains risk, and drives permanent correction instead of repeat damage.", "principle": "AI-RMA closes the loop." },
-    { "id": "ai-connect", "title": "AI-Connect", "subtitle": "Connect", "type": "communication_routing_permissions", "icon": "network", "color": "teal", "status": "active", "tagline": "AI-Connect prepares the right people with the right information before action is needed.", "principle": "Nothing important gets lost between people, departments, or decisions." },
-    { "id": "document-formatter", "title": "Document Formatter", "subtitle": "Formatter", "type": "support_utility", "icon": "page-wand", "color": "silver", "status": "active", "tagline": "The Document Formatter turns finished outputs into clean, branded documents ready for review, print, or portfolio use.", "principle": "The Document Formatter formats finished outputs cleanly without changing the underlying logic." }
+    {
+      "id": "ai-trace",
+      "title": "AI-Trace",
+      "subtitle": "Trace",
+      "type": "analytics_visibility",
+      "icon": "magnifier-chart",
+      "color": "blue",
+      "status": "active",
+      "tagline": "AI-Trace exposes repeat problems, hidden cost, quality risk, and lost hours so recurring issues stop being patched and start being fixed.",
+      "principle": "AI-Trace shows the picture clearly. AI-CIS fixes what the picture reveals."
+    },
+    {
+      "id": "ai-cis",
+      "title": "AI-CIS",
+      "subtitle": "CIS",
+      "type": "continuous_improvement",
+      "icon": "shield",
+      "color": "copper",
+      "status": "active",
+      "tagline": "AI-CIS captures process breakdowns, protects flow, and drives corrective action before repeat issues become normal.",
+      "principle": "AI-CIS finds the improvement."
+    },
+    {
+      "id": "ai-roi",
+      "title": "AI-ROI",
+      "subtitle": "ROI",
+      "type": "business_justification",
+      "icon": "bar-chart",
+      "color": "green",
+      "status": "active",
+      "tagline": "AI-ROI turns validated improvements and equipment opportunities into clear financial justification, showing where capacity, labor, and value can be gained.",
+      "principle": "AI-CIS finds the improvement. AI-ROI justifies the value."
+    },
+    {
+      "id": "ai-case",
+      "title": "AI-Case",
+      "subtitle": "Case",
+      "type": "case_study_storytelling",
+      "icon": "document",
+      "color": "indigo",
+      "status": "planned",
+      "tagline": "AI-Case turns real improvements, technical problem-solving, and process wins into clear case studies.",
+      "principle": "AI-CIS identifies case study value. AI-Case tells the story."
+    },
+    {
+      "id": "ai-quote",
+      "title": "AI-Quote",
+      "subtitle": "Quote",
+      "type": "estimating_quoting",
+      "icon": "calculator",
+      "color": "orange",
+      "status": "planned",
+      "tagline": "AI-Quote turns weld, grind, fixture, and flow decisions into clear estimating logic and practical pricing.",
+      "principle": "AI-Quote prices the work clearly."
+    },
+    {
+      "id": "ai-rma",
+      "title": "AI-RMA",
+      "subtitle": "RMA",
+      "type": "return_corrective_action",
+      "icon": "alert-rotate",
+      "color": "red",
+      "status": "planned",
+      "tagline": "AI-RMA traces failures back to the source, contains risk, and drives permanent correction instead of repeat damage.",
+      "principle": "AI-RMA closes the loop."
+    },
+    {
+      "id": "ai-connect",
+      "title": "AI-Connect",
+      "subtitle": "Connect",
+      "type": "communication_routing_permissions",
+      "icon": "network",
+      "color": "teal",
+      "status": "active",
+      "tagline": "AI-Connect prepares the right people with the right information before action is needed.",
+      "principle": "Nothing important gets lost between people, departments, or decisions."
+    },
+    {
+      "id": "document-formatter",
+      "title": "Document Formatter",
+      "subtitle": "Formatter",
+      "type": "support_utility",
+      "icon": "page-wand",
+      "color": "silver",
+      "status": "active",
+      "tagline": "The Document Formatter turns finished outputs into clean, branded documents ready for review, print, or portfolio use.",
+      "principle": "The Document Formatter formats finished outputs cleanly without changing the underlying logic."
+    }
   ],
   "ui": {
     "colorMap": {
@@ -55,5 +135,50 @@
       "ai-connect": "network",
       "document-formatter": "page-wand"
     }
+  },
+  "homepage": {
+    "intent": "Simplified homepage structure with clearer hierarchy and less visual density.",
+    "hero": {
+      "eyebrow": "Applied Intelligence Framework",
+      "headline": "Built from the floor up.",
+      "subheadline": "Standardize to Optimize",
+      "supportingText": "One ecosystem. Separate agents. Clear roles."
+    },
+    "sections": [
+      {
+        "id": "core-agents",
+        "title": "Core Active Agents",
+        "description": "Highlight active agents first to reduce cognitive load on first visit.",
+        "agentIds": [
+          "ai-trace",
+          "ai-cis",
+          "ai-roi",
+          "ai-connect"
+        ]
+      },
+      {
+        "id": "planned-agents",
+        "title": "Planned Expansion",
+        "description": "Show planned modules as future roadmap context, not primary homepage focus.",
+        "agentIds": [
+          "ai-case",
+          "ai-quote",
+          "ai-rma"
+        ]
+      },
+      {
+        "id": "utilities",
+        "title": "Supporting Utility",
+        "description": "Keep supporting utility visible but separate from core flow.",
+        "agentIds": [
+          "document-formatter"
+        ]
+      }
+    ],
+    "layoutNotes": [
+      "Prioritize whitespace and card breathing room.",
+      "Keep top navigation clean and glass-light.",
+      "Avoid stacked dense copy blocks on homepage."
+    ]
   }
 }
