@@ -43,6 +43,15 @@ core/bundles/applied-intelligence-website-source.json
 5. Create PR
 6. Wait for approval
 
+## Current Content Direction
+
+- Homepage must retain **"Standardize to Optimize."** as the headline.
+- Homepage must retain **"Built from the floor up."** as support copy.
+- Replace placeholder inner-page text with authentic Applied Intelligence language.
+- Preserve static `.html` navigation patterns.
+- Refine bottom dock only when intentionally aligned to reference styling.
+- Do not add unapproved contact details.
+
 ## Design Direction
 
 - Clean
